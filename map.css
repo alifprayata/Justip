@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   /* Navbar */
+   nav {
+    background-color: #ed9e42;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .menu img {
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 20px;
+  }
+  
+  .left-section {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .product-info h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .product-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .zoom-controls {
+    margin-top: 20px;
+  }
+  
+  .zoom-controls button {
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: #ed9e42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .map-frame {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; 
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #map-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  
+  
+  .right-section {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .courier-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .rating {
+    color: #ed9e42;
+    margin-bottom: 10px;
+  }
+  
+  .rating img {
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+    vertical-align: middle;
+  }
+  
+  
+  /* Footer */
+  footer {
+    background-color: #ed9e42;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  }
+  

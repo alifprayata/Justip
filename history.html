@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="history.css">
+  <title>Pemesanan</title>
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <a href="#" class="logo">JusTip</a>
+      <div class="menu">
+        <input type="text" class="search-bar" placeholder="Cari barang...">
+        <a href="cart.html">
+          <img src="cart.png" alt="cart">
+        </a>
+        <a href="history.html">
+          <img src="history.png" alt="cart">
+        </a>
+        <a href="#"><img src="notif.png" alt="Notifikasi"></a>
+        <a href="signing.html">
+          <img src="profile.png" alt="Profil">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="left-section">
+      <h2>Riwayat Pemesanan</h2>
+      <div class="order-history">
+        <div class="order-details">
+          <div class="product-image">
+            <img src="riwayat1.png" alt="Produk 1">
+          </div>
+          <div class="product-info">
+            <h3>BengBeng</h3>
+            <p>TokoBerkahAlamiah</p>
+            <p>Durasi Pemesanan: 2 hari</p>
+          </div>
+        </div>
+        <div class="order-details">
+          <div class="product-image">
+            <img src="riwayat2.png" alt="Produk 2">
+          </div>
+          <div class="product-info">
+            <h3>Ayam fillet Dada 1kg</h3>
+            <p>JuraganBetoktok</p>
+            <p>Durasi Pemesanan: 3 hari</p>
+          </div>
+        </div>
+        <div class="order-details">
+          <div class="product-image">
+            <img src="riwayat3.jpg" alt="Produk 3">
+          </div>
+          <div class="product-info">
+            <h3>Susu UltraMilk</h3>
+            <p>SembakoJayaJaya</p>
+            <p>Durasi Pemesanan: 2 hari</p>
+          </div>
+        </div>
+        <!-- Tambahkan detail pemesanan lainnya di sini -->
+      </div>
+    </div>
+
+    <div class="right-section">
+      <h2>Proses Pemesanan</h2>
+      <div class="order-info">
+        <div class="product-image">
+          <img src="product3.png" alt="Produk 3">
+        </div>
+        <div class="product-info">
+          <h3>Twister 70g</h3>
+          <h4>-ChickiEnakMantap-</h4>
+          <p>13\05\2023</p>
+          <button class="track-courier" onclick="redirectToMap()">Lacak Kurir</button>
+
+
+        </div>
+      </div>
+      <div class="order-info">
+        <div class="product-image">
+          <img src="proses1.jpg" alt="Produk 4">
+        </div>
+        <div class="product-info">
+          <h3>Gold Roast Chocolate 250g</h3>
+          <h4>-MajuJayaBerkah-</h4>
+          <p>12\05\2023</p>
+          <button class="track-courier">Lacak Kurir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function redirectToMap() {
+  window.location.href = "map.html";
+}
+
+  </script>
+
+  <footer>
+    <p>&copy; 2023 Jasa Titip. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
